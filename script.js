@@ -24,10 +24,6 @@ reset.addEventListener("click", () => {
 	mainScreen.style.display = "flex";
 	selection.style.display = "none";
 });
-// when we click any of game buttons
-// an event listeners calls a function that takes two parameters
-// compares two of them and declare winner using conditions and return a val
-// that returned val will increase score or not
 
 let score = 0;
 
