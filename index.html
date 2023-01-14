@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<div class="container">
+    <div class="main">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    <span>Rock</span>
+                    <span>Paper</span>
+                    <span>Scissors</span>
+                </h1>
+            </div>
+            <div class="scoreCard">
+                <p>score</p>
+                <h1 class="score">0</h1>
+            </div>
+        </div>
+        <div class="content">
+            <div class="upperBtns">
+                <div class="btn paper" data-choice="paper">
+                    <img src="images/icon-paper.svg" alt="">
+                </div>
+                <div class="btn scissors" data-choice="scissors">
+                    <img src="images/icon-scissors.svg" alt="">
+                </div>
+            </div>
+
+            <div class="lowerBtns">
+                <div class="btn rock" data-choice="rock">
+                    <img src="images/icon-rock.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="selection">
+        <div class="userPick">
+            <h2>
+                You picked
+            </h2>
+            <button class="btn" id="userBtn">
+                <img id="userSelect" src="images/icon-paper.svg" alt="">
+            </button>
+        </div>
+        <div class="result">
+            <h2>
+                You
+                <span id="gameResult" class="win">Win</span>
+            </h2>
+            <button class="resetBtn" id="reset">Play again</button>
+        </div>
+        <div class="housePick">
+            <h2>
+                House picked
+            </h2>
+            <button class="btn" id="houseBtn">
+                <img id="houseSelect" src="images/icon-rock.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+</div>
+
+
+<body>
+
+</body>
+
+</html>
